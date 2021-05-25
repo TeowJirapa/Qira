@@ -1,4 +1,4 @@
-#pragma once //declarations goes here
+#pragma once
 class Player
 {
 public:
