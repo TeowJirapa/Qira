@@ -9,7 +9,7 @@ public:
 	void displayMenu(); 
 	void gotoxy(int x, int y); //http://www.cplusplus.com/forum/general/33846/
 	void instructions();
-	void credits(); //Darren 
+	void credits(); 
 	void displayScore();
 
 private:
