@@ -6,11 +6,11 @@ public:
 
 	void loadingScreen(); //Teow Jirapa
 	void welcomeMessage(); //Teow Jirapa
-	void displayMenu(); //Kimberly
+	void displayMenu(); 
 	void gotoxy(int x, int y); //http://www.cplusplus.com/forum/general/33846/
-	void instructions();//Kimberly
+	void instructions();
 	void credits(); //Darren 
-	void displayScore(); //Sherwyn
+	void displayScore();
 
 private:
 	int repeatBar;
