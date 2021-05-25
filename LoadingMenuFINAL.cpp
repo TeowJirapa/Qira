@@ -169,12 +169,6 @@ void LoadingMenu::credits()
 		cout<<"DCEP MAE 03"<<endl;
 		gotoxy(54,13);
 		cout<<"Teow Jirapa"<<endl;
-		gotoxy(52,14);
-		cout<<"Kimberly Suriya"<<endl;
-		gotoxy(55,15);
-		cout<<"Darren Tan"<<endl;
-		gotoxy(54,16);
-		cout<<"Sherwyn Chan"<<endl;
 		gotoxy(47,17);
 		cout<<"--------------------------"<<endl;
 		gotoxy(47,18);
