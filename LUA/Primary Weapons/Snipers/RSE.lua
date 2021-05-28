@@ -10,7 +10,7 @@ return {
 	
 	Scope = {Max = 5, Min = 20},
 	
-	Description		= "A sniper with a high fireate and large magazine. This weapon allows the user to fire high impact bullets at their enemies quickly, so don’t be afraid if you miss a couple shots.",	
+	Description		= "A sniper with a high fireate and large magazine. This weapon allows the user to fire high impact bullets at their enemies quickly, so donâ€™t be afraid if you miss a couple shots.",	
 	
 	LongReloadSound = true,
 	Barrels = function (StatObj) return StatObj.Parent:WaitForChild("Barrel") end,
