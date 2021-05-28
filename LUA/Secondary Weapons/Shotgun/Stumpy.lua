@@ -17,7 +17,7 @@ return
 	PreventSprint = true,
 	BulletType = {Name = "Explosive", BlastRadius = 15, BlastPressure = 10000, ExplosionType = Enum.ExplosionType.NoCraters},
 	
-	Description		=	"This grenade launcher excels in taking out clusters of enemies. You better ensure your opposition isn’t carrying this in close quarters.",		
+	Description		=	"This grenade launcher excels in taking out clusters of enemies. You better ensure your opposition isnâ€™t carrying this in close quarters.",		
 	
 	LongReloadSound = true,
 	Barrels = function (StatObj) return StatObj.Parent:WaitForChild("Barrel") end,
