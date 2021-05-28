@@ -8,7 +8,7 @@ return {
 	Range = 400,
 	AccurateRange = 60,
 	
-	Description		=	"This hefty revolver packs a punch with it’s high damage rounds.",	
+	Description		=	"This hefty revolver packs a punch with itâ€™s high damage rounds.",	
 	
 	
 	Barrels = function (StatObj) return StatObj.Parent:WaitForChild("Barrel") end,
