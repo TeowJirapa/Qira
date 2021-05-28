@@ -23,7 +23,6 @@ function CoroutineErrorHandling.RunFunctionWithStack(Func, ...)
 	end
 end
 
---for error stack to trace from when you run this function instead of when you initially ran CoroutineWithStack
 function CoroutineErrorHandling.ResumeWithStack(Thread, ...)
 	Stacks[Thread] = debug.traceback(nil, Stacks[Thread] == true and 3 or 2)
 	local Results = {coroutine.resume(Thread, ...)}
@@ -34,7 +33,6 @@ function CoroutineErrorHandling.ResumeWithStack(Thread, ...)
 	end
 end
 
---for the error stack to trace from when you run this function even after resuming the thread from coroutine.resume
 function CoroutineErrorHandling.CoroutineWithStack(Func, ...)
 	local Thread = coroutine.create(CoroutineErrorHandling.RunFunctionWithStack)
 	Stacks[Thread] = true
