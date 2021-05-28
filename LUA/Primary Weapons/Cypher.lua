@@ -9,7 +9,7 @@ return
 	Range 			= 	620 ,
 	AccurateRange	=	135 ,
 	
-	Description		=	"A newer weapon added to the arsenal of many weapons that a TRA soldier wields. This sleek rifle is a second option for the battlefield and it is best that you don’t overlook it.",	
+	Description		=	"A newer weapon added to the arsenal of many weapons that a TRA soldier wields. This sleek rifle is a second option for the battlefield and it is best that you donâ€™t overlook it.",	
 	
 	Barrels			=	function ( obj ) return obj.Parent:WaitForChild( 'Barrel' ) end ,
 
