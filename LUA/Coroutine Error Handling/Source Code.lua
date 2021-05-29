@@ -40,4 +40,4 @@ function CoroutineErrorHandling.CoroutineWithStack(Func, ...)
 end
 
 return CoroutineErrorHandling
---With assistance from Nick
+--With assistance and reference from Partixel
